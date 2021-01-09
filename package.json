@@ -1,0 +1,18 @@
+{
+  "name": "sockets-fundaments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cristian Delcid",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
